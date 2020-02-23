@@ -166,6 +166,7 @@
             this.btnLogo.TabIndex = 11;
             this.btnLogo.Text = "upload...";
             this.btnLogo.UseVisualStyleBackColor = true;
+            this.btnLogo.Visible = false;
             this.btnLogo.Click += new System.EventHandler(this.btnLogo_Click);
             // 
             // label5
@@ -178,6 +179,7 @@
             this.label5.Size = new System.Drawing.Size(48, 19);
             this.label5.TabIndex = 12;
             this.label5.Text = "Logo :";
+            this.label5.Visible = false;
             // 
             // LoadPic
             // 
