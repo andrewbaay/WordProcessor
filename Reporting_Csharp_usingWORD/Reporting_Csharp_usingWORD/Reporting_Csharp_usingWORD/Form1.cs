@@ -94,7 +94,7 @@ namespace Reporting_Csharp_usingWORD
                 this.FindAndReplace(wordApp, "$$datedatedate$$", DateTime.Now.ToShortDateString());
 
                 //insert the picture:
-                Image img = resizeImage(pathImage, new Size(200, 90));
+                //Image img = resizeImage(pathImage, new Size(200, 90));
                 tempPath = System.Windows.Forms.Application.StartupPath + "\\Images\\~Temp\\temp.jpg";
                // img.Save(tempPath);
 
@@ -237,7 +237,7 @@ namespace Reporting_Csharp_usingWORD
         }
 
         //Change Picture Size :
-        private static Image resizeImage(string filename, Size size)
+       /* private static Image resizeImage(string filename, Size size)
         {
             Image imgToResize = Image.FromFile(filename);
             int sourceWidth = imgToResize.Width;
@@ -267,7 +267,7 @@ namespace Reporting_Csharp_usingWORD
 
             return (Image)b;
         }
-
+        */
         #region droped
         private void button2_Click(object sender, EventArgs e)
         {
