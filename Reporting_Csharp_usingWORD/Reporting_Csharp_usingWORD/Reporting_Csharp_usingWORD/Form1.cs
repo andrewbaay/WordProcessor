@@ -202,7 +202,7 @@ namespace Reporting_Csharp_usingWORD
             tFirstname.Enabled = state;
             tPhone.Enabled = state;
             tLastname.Enabled = state;
-            btnLogo.Enabled = state;
+           // btnLogo.Enabled = state;
         }
 
         //Load the Template Document:

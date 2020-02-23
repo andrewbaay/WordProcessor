@@ -188,7 +188,6 @@
             // btnSubmit
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.Enabled = false;
             this.btnSubmit.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.btnSubmit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
             this.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
