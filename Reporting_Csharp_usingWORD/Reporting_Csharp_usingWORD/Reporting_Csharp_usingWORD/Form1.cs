@@ -87,21 +87,21 @@ namespace Reporting_Csharp_usingWORD
                 aDoc.Activate();
 
                 //Find and replace:
-                this.FindAndReplace(wordApp, "$$name$$", tFirstname.Text);
-                this.FindAndReplace(wordApp, "$$Lastname$$", tLastname.Text);
-                this.FindAndReplace(wordApp, "$$tel$$", tPhone.Text);
-                this.FindAndReplace(wordApp, "$$Company$$", tCompany.Text);
-                this.FindAndReplace(wordApp, "$$Date$$", DateTime.Now.ToShortDateString());
+                this.FindAndReplace(wordApp, "$$FullName$$", tFirstname.Text);
+                this.FindAndReplace(wordApp, "$$Age$$", tLastname.Text);
+                this.FindAndReplace(wordApp, "$$Status$$", tPhone.Text);
+                this.FindAndReplace(wordApp, "$$Purpose$$", tCompany.Text);
+                this.FindAndReplace(wordApp, "$$datedatedate$$", DateTime.Now.ToShortDateString());
 
                 //insert the picture:
                 Image img = resizeImage(pathImage, new Size(200, 90));
                 tempPath = System.Windows.Forms.Application.StartupPath + "\\Images\\~Temp\\temp.jpg";
-                img.Save(tempPath);
+               // img.Save(tempPath);
 
                 Object oMissed = aDoc.Paragraphs[1].Range; //the position you want to insert
                 Object oLinkToFile = false;  //default
                 Object oSaveWithDocument = true;//default
-                aDoc.InlineShapes.AddPicture(tempPath, ref  oLinkToFile, ref  oSaveWithDocument, ref oMissed);
+               // aDoc.InlineShapes.AddPicture(tempPath, ref  oLinkToFile, ref  oSaveWithDocument, ref oMissed);
 
                 #region Print Document :
                 /*object copies = "1";
@@ -275,5 +275,20 @@ namespace Reporting_Csharp_usingWORD
            // pictureBox1.Image.Save(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\test.jpg");
         }
         #endregion
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tCompany_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
