@@ -1,0 +1,10 @@
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\bin\Debug\ibrgy.exe.config
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\bin\Debug\ibrgy.exe
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\bin\Debug\ibrgy.pdb
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.csprojAssemblyReference.cache
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.Properties.Resources.resources
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.csproj.GenerateResource.cache
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.exe
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.pdb
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.ib_log.resources
+C:\Users\Kei D. Penaredondo\source\repos\ibrgy\obj\Debug\ibrgy.ib_home.resources
