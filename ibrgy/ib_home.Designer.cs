@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // ib_home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 487);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.ClientSize = new System.Drawing.Size(911, 514);
+            this.Name = "ib_home";
+            this.Text = "EMPLOYEE_HOME";
             this.ResumeLayout(false);
 
         }

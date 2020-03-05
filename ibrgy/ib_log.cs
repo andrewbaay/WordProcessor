@@ -16,6 +16,8 @@ namespace ibrgy
         public ib_log()
         {
             InitializeComponent();
+            this.TopMost = true;
+            this.CenterToScreen();
             this.ActiveControl = log_uname;
         }
 
@@ -28,9 +30,9 @@ namespace ibrgy
             sda.Fill(dtbl);
             if(dtbl.Rows.Count == 1)
             {
-                ib_home ibh = new ib_home();
-                this.Hide();
-                ibh.Show();
+                    ib_home ibh = new ib_home();
+                    this.Hide();
+                    ibh.Show();
             }
             else
             {
@@ -42,7 +44,14 @@ namespace ibrgy
         {
             if(e.KeyCode == Keys.Enter)
             {
-                SendKeys.Send("{TAB}");
+                if(log_pass.Text != "")
+                {
+                    button2.PerformClick();
+                }
+                else
+                {
+                    SendKeys.Send("{TAB}");
+                }
             }
             if (e.KeyCode == Keys.Escape)
             {
@@ -73,6 +82,15 @@ namespace ibrgy
             {
                 this.Close();
             }
+        }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            log_pass.PasswordChar = checkBox1.Checked ? '\0' : '*';
+        }
+
+        private void log_pass_TextChanged(object sender, EventArgs e)
+        {
+            log_pass.PasswordChar = '*';
         }
     }
 }
